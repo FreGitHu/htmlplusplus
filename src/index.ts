@@ -5,14 +5,16 @@ import {Root} from "./types";
 const input = `
 <htmlplusplus>
 <title>Hello, World!</title>
-<div class="container">
-    <h1>Title</h1>
-    <p>This is a paragraph.</p>
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-    </ul>
-</div>
+<body>
+    <div class="container">
+        <h1>Title</h1>
+        <p>This is a paragraph.</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+    </div>
+</body>
 </htmlplusplus>
 `;
 
