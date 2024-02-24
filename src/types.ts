@@ -6,9 +6,13 @@ export interface PTag {
     _text: string
 }
 
+export interface Body {
+    p: PTag
+}
+
 export interface HTMLPlusPlus {
     title?: Title
-    p?: PTag
+    body?: Body
 }
 
 export interface Root {
